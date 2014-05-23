@@ -15,6 +15,7 @@
   <modules>
     <module>tyrael-ninja-web</module>
     <module>tyral-ninja-core</module>
+    <module>tyrael-ninja-dashboard</module>
   </modules>
 
   <dependencyManagement>
