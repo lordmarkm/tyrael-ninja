@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>tyrael-ninja</groupId>
+    <artifactId>tyrael-ninja</artifactId>
+    <version>1.0</version>
+  </parent>
+  <groupId>tyrael-ninja-web</groupId>
+  <artifactId>tyrael-ninja-web</artifactId>
+  <name>Tyrael Ninja :: Web</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>baldy.commons</groupId>
+      <artifactId>baldy-commons-data-mysql</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>baldy.commons</groupId>
+      <artifactId>baldy-commons-models</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>baldy.commons</groupId>
+      <artifactId>baldy-commons-dtos</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>baldy.commons</groupId>
+      <artifactId>baldy-commons-web</artifactId>
+    </dependency>
+  </dependencies>
+  <packaging>war</packaging>
+</project>
